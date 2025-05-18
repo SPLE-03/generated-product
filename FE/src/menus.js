@@ -48,3 +48,24 @@ addMenu({
     permission: '',
 	subMenus: []
 })
+
+addMenu({
+	route: '/doctorinformation',
+    label: 'DoctorInformation',
+    permission: '',
+	subMenus: []
+})
+
+addMenu({
+	route: '/vaccineinfo',
+    label: 'VaccineInfo',
+    permission: '',
+	subMenus: []
+})
+
+addMenu({
+	route: '/druginformation',
+    label: 'DrugInformation',
+    permission: '',
+	subMenus: []
+})

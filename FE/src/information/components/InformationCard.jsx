@@ -1,7 +1,7 @@
 /*
 	Generated on 18/05/2025 by UI Generator PRICES-IDE
 	https://amanah.cs.ui.ac.id/research/ifml-regen
-	version 3.8.0
+	version 3.9.0
 */
 import React from 'react'
 import { Link } from "react-router";
@@ -26,7 +26,7 @@ const InformationCard = ({ information,
             condition: "",
             label: "informationTitle",
   		  featureName: "informationTitle",
-            editable:  false 
+            editable: false
           }
   ,
           {
@@ -34,7 +34,7 @@ const InformationCard = ({ information,
             condition: "",
             label: "informationDescription",
   		  featureName: "consultationDescription",
-            editable:  false 
+            editable: false
           }
   ]}
       itemsEvents={(informationItem) => [

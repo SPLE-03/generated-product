@@ -1,7 +1,7 @@
 /*
 	Generated on 18/05/2025 by UI Generator PRICES-IDE
 	https://amanah.cs.ui.ac.id/research/ifml-regen
-	version 3.8.0
+	version 3.9.0
 */
 import React from 'react'
 import { Link } from "react-router";
@@ -22,11 +22,27 @@ const ArticleCard = ({ article,
   	
   	itemsAttrs={[
           {
+            id: "informationTitle",
+            condition: "",
+            label: "informationTitle",
+  		  featureName: "informationTitle",
+            editable: false
+          }
+  ,
+          {
+            id: "informationDescription",
+            condition: "",
+            label: "informationDescription",
+  		  featureName: "consultationDescription",
+            editable: false
+          }
+  ,
+          {
             id: "content",
             condition: "",
             label: "content",
   		  featureName: "content",
-            editable:  false 
+            editable: false
           }
   ]}
       itemsEvents={(articleItem) => [

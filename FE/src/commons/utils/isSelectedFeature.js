@@ -11,5 +11,17 @@ var selectedFeatures = Array.from(new Set ([
 "Article",
 
 
+"Information",
+"DoctorInformation",
+
+
+"Information",
+"VaccineInfo",
+
+
+"Information",
+"DrugInformation",
+
+
 "Home",
 ]))

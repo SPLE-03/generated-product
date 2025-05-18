@@ -1,7 +1,7 @@
 /*
 	Generated on 18/05/2025 by UI Generator PRICES-IDE
 	https://amanah.cs.ui.ac.id/research/ifml-regen
-	version 3.8.0
+	version 3.9.0
 */
 import React from "react";
 import { Controller, useForm } from "react-hook-form";
@@ -33,16 +33,10 @@ import * as Layouts from "@/commons/layouts";
 
 const ModifiedFormModifiedForm = ({ 
  }) => {
-  
-  
-  
   const { 
     control, 
     handleSubmit,
   } = useForm()
-  
-  
-  
   
   
   
