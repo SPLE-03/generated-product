@@ -41,3 +41,10 @@ export const settingsMenu = [
 ]
 
 export default menus;
+
+addMenu({
+	route: '/article',
+    label: 'Article',
+    permission: '',
+	subMenus: []
+})

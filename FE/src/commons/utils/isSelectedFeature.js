@@ -4,5 +4,12 @@ export default isSelectedFeature
 
 var selectedFeatures = Array.from(new Set ([
 
+"Information",
+
+
+"Information",
+"Article",
+
+
 "Home",
 ]))
