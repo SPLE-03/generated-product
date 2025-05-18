@@ -1,0 +1,34 @@
+namespace HealthCare
+
+features
+	HealthCare {abstract true}
+		optional
+			Consultation
+				optional
+					ChatConsultation
+					OfflineConsultation
+		mandatory
+			Information
+				optional
+					HealthArticle
+					DoctorInformation
+					FacilityLocation
+					VaccineInfo
+					DrugInformation
+		optional
+			Report {abstract true}
+				optional
+					PatientReport
+					DoctorReport
+			SpecialServices {abstract true}
+				optional
+					InHouseDoctor
+					Emergency
+			ComplaintService {abstract true}
+				mandatory
+					ConsultationComplaint
+				optional
+					SpecialServiceComplaint
+
+constraints
+	SpecialServiceComplaint => SpecialServices
